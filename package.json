@@ -1,0 +1,37 @@
+{
+  "name": "superfe-hn-inspector",
+  "version": "1.0.0",
+  "description": "Inspector tool for super-fe's html-native apps",
+  "main": "index.js",
+  "bin": {
+    "inspect": "bin/cli.js"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/super-fe/superfe-hn-inspector.git"
+  },
+  "keywords": [
+    "inspector",
+    "superfe-hn"
+  ],
+  "author": "yanni4night@gmail.com",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/super-fe/superfe-hn-inspector/issues"
+  },
+  "homepage": "https://github.com/super-fe/superfe-hn-inspector#readme",
+  "dependencies": {
+    "babylon": "^6.18.0",
+    "bluebird": "^3.5.0",
+    "check-node-version": "^3.2.0",
+    "editorconfig": "^0.15.0",
+    "glob": "^7.1.1",
+    "js-yaml": "^3.8.2",
+    "lodash": "^4.17.4",
+    "mocha": "^5.0.0",
+    "parse-gitignore": "^0.4.0",
+    "resolve": "^1.3.2",
+    "semver": "^5.3.0"
+  }
+}
