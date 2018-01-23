@@ -125,7 +125,7 @@ describe('package.json', function() {
             var format = function(item) {
                 return '"' + item.key + '": "' + item.value + '"';
             };
-            console.log(legalDeps.map(format))
+
             assert.deepEqual(rawDeps.map(format), legalDeps.map(format));
         });
     });

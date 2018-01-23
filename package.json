@@ -1,6 +1,6 @@
 {
   "name": "superfe-hn-inspector",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Inspector tool for super-fe's html-native apps",
   "main": "index.js",
   "bin": {
